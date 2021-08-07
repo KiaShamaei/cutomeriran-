@@ -49,6 +49,42 @@ body{
   height: 80vh;
   background-size: cover;
 }
+.mainpart-tabriz{
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.3))), url("../images/header-img.jpeg");
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url("../images/night.jpg");
+  background-repeat: cover;
+  background-position: center;
+  height: 80vh;
+  background-size: cover;
+
+}
+.mainpart-esfehan{
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.3))), url("../images/header-img.jpeg");
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url("../images/gonbad.jpg");
+  background-repeat: cover;
+  background-position: center;
+  height: 80vh;
+  background-size: cover;
+
+}
+.mainpart-shiraz{
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.3))), url("../images/header-img.jpeg");
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url("../images/iran-shiraz.jpg");
+  background-repeat: cover;
+  background-position: center;
+  height: 80vh;
+  background-size: cover;
+
+}
+.mainpart-mashhad{
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.3))), url("../images/header-img.jpeg");
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url("../images/mashhad.jpg");
+  background-repeat: cover;
+  background-position: center;
+  height: 80vh;
+  background-size: cover;
+
+}
 .section2 {
   background: #202833;
 }
@@ -120,8 +156,8 @@ body{
   
 }
 .galary-img{
-  max-width: 200px;
-  max-height:130px;
+  width: 200px;
+  height:130px;
 }
 
 .pics:hover {
@@ -200,6 +236,10 @@ body{
   .animate-left {
     position: static;
   }
+  .galary-img{
+	max-width: 100%;
+	max-height:250px;
+  }
 }
 
 .animate-right {
@@ -258,3 +298,18 @@ body{
   border-top: 1px solid #c5c6c8;
 }
 /*# sourceMappingURL=style.css.map */
+.dropdown-menu {
+	background-color: transparent !important;
+	color: #ffff;
+}
+.dropdown-item{
+	color: #ffff !important;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+.dropdown-item:hover{
+	color: rgb(9, 84, 170) !important;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+.navbar-brand{
+	text-align: center;
+}
